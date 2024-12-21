@@ -15,6 +15,7 @@ const number = Math.floor(Math.random()*10)+11;
 
 console.log(number);
 
+
 // new Date()	Creates a new Date object
 // constructor	Creates a new Date object
 // constructor	Returns the function that created the Date prototype
@@ -68,4 +69,7 @@ console.log(number);
 // toUTCString()	Converts a Date object to a string, according to universal time
 // UTC()	Returns the number of milliseconds in a date since midnight of January 1, 1970, according to UTC time
 // valueOf()	Returns the primitive value of a Date object
+
+console.log(`Time since 1st Jan 1970 somewhere around midnight is ${Math.round(Date.now()/1000)} seconds`);
+
 
